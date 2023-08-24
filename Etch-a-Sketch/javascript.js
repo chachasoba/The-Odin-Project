@@ -1,3 +1,4 @@
+//part 1
 const grid = document.querySelector('.grid');
 const GRID_SIZE = 16
 
@@ -15,3 +16,10 @@ for (let i=0; i<GRID_SIZE; i++) {
     }
     grid.appendChild(column);
 }
+
+//part 2
+const rows = document.querySelectorAll('.row');
+rows.forEach(row => 
+    row.addEventListener('mouseover', () =>
+        row.classList.toggle('hover')));
+
