@@ -3,6 +3,14 @@ h1 {
     justify-content: center;
 }
 
+.container {
+    padding-left: 500px;
+}
+
+button {
+    margin-left: 170px;
+    margin-bottom: 20px;
+}
 .grid {
     display: flex;
     flex: 1;
