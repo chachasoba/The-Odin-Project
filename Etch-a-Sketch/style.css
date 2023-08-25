@@ -5,17 +5,32 @@ h1 {
 
 .grid {
     display: flex;
+    flex: 1;
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+
+    
 }
 
 .column {
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+   
+
 }
 
 .row {
-    height: 50px;
-    width: 50px;
-    border: 1px solid black;
+    border: 1px solid orange;
     margin: 0;
+    flex: 1;
+   
+
+
+    
+
 }
 
 .hover {
